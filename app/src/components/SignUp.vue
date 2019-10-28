@@ -1,6 +1,6 @@
 <template>
-<div class="md-alignment-top-center">
-  <form class="md-alignment-top-center">
+<div>
+  <form class="md-layout md-alignment-center">
     <md-card class="md-layout-item md-size-50 md-small-size-100">
       <md-card-header>
         <div class="md-title">Sign Up</div>
@@ -34,7 +34,7 @@
         </div>
       </md-card-content>
       <md-card-actions>
-        <md-button type="submit" class="md-primary" :disabled="sending">Crear Usuario</md-button>
+        <md-button type="submit" class="md-primary">Crear Usuario</md-button>
       </md-card-actions>
     </md-card>
   </form>
