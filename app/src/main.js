@@ -6,7 +6,7 @@ import router from './router'
 import VueMaterial from 'vue-material'
 import 'vue-material/dist/vue-material.min.css'
 import 'vue-material/dist/theme/default-dark.css'
-import firebsae from 'firebase'
+import firebase from 'firebase'
 
 const firebaseConfig = {
     apiKey: "AIzaSyBOQe7xSjY9txzQCDzC9Y9joRBY9T9CC6w",
